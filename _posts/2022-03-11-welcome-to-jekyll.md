@@ -3,7 +3,7 @@ layout: post
 title: 标题！
 subtitle: 子标题！
 author: Kujisa
-categories: demo
+categories: Other
 banner:
   video: https://vjs.zencdn.net/v/oceans.mp4
   loop: true
@@ -16,7 +16,7 @@ banner:
   min_height: "38vh"
   heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: underline"
   subheading_style: "color: gold"
-tags: demo
+tags: Markdown
 ---
 
 ## quick markdown
