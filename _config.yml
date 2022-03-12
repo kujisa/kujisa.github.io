@@ -124,6 +124,7 @@ header_pages:
   - categories.html
   - tags.html
   - about.html
+  - policy.html
 
 # Banner default settings
 # These banner settings are for global banner default, but you can also
