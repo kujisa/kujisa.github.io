@@ -20,7 +20,7 @@ favicon: "" # the favicon for your site
 #   "Copyright (c) 2017-{currentYear} <a href="https://example.com">{author}</a>"
 #   "Copyright © 2017-2021 Foobar"
 #
-copyright: "Copyright (c) {currentYear} <a href='https://miraihere.com/about.html'>{author}</a>"
+copyright: "Copyright (c) {currentYear} <a href='https://miraihere.com/about.html'>{author}</a> All Rights Reserved."
 
 # Yat date format
 # refer to http://strftime.net/ if you want to customize this
@@ -124,6 +124,7 @@ header_pages:
   - categories.html
   - tags.html
   - about.html
+  - policy.html
 
 # Banner default settings
 # These banner settings are for global banner default, but you can also

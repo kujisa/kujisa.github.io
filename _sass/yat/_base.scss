@@ -8,6 +8,20 @@ dl, dd, ol, ul, figure {
   padding: 0;
 }
 
+/**
+ * Scrollbar
+ **/
+::-webkit-scrollbar {
+  width: 3px;
+  height: 3px
+}
+::-webkit-scrollbar-thumb {
+  background-color: lightseagreen;
+  min-height: 100px
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: seagreen
+}
 
 
 /**
@@ -98,7 +112,7 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-  font-weight: $base-font-weight * 1.5;
+  font-weight: $base-font-weight ;
 }
 
 /**

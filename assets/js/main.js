@@ -6,10 +6,10 @@ if (!Element.prototype.matches) {
     Element.prototype.msMatchesSelector ||
     Element.prototype.oMatchesSelector ||
     Element.prototype.webkitMatchesSelector ||
-    function(s) {
+    function (s) {
       var matches = (this.document || this.ownerDocument).querySelectorAll(s),
         i = matches.length;
-      while (--i >= 0 && matches.item(i) !== this) {}
+      while (--i >= 0 && matches.item(i) !== this) { }
       return i > -1;
     };
 }
@@ -44,15 +44,33 @@ function smoothScrollTo(y, time) {
   }
 
   for (var i = 0; i <= count; i++) {
-    (function() {
+    (function () {
       var cur = i;
-      _scrollTimer[cur] = setTimeout(function() {
+      _scrollTimer[cur] = setTimeout(function () {
         window.scrollTo(
           scrollPos.x,
-          scrollPos.y + length * easeInOut(cur/count)
+          scrollPos.y + length * easeInOut(cur / count)
         );
       }, (time / count) * cur);
     })();
   }
 }
 
+// post list animation
+window.onload = function () {
+  let postLists = document.querySelectorAll(".post-list > li");
+  
+  let postListObserver = new IntersectionObserver((entries, observer) => {
+    entries.forEach((entry, index) => {
+      if (entry.isIntersecting) {
+        if(!entry.target.classList.contains("post-list-anim-slideup")){
+          entry.target.className="post-list-anim-slideup"
+        }
+      }
+    })
+  })
+
+  postLists.forEach(function (postList) {
+    postListObserver.observe(postList);
+  })
+}

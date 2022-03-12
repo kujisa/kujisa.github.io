@@ -262,6 +262,24 @@ html {
 }
 
 /**
+ * Animations
+ **/
+.post-list-anim-slideup{
+  animation: post-list-anim-slideup 0.75s;
+}
+
+@keyframes post-list-anim-slideup { 
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    -ms-transform: translateY(20px);
+    transform: translateY(20px);
+  }
+  100%{}			
+}
+
+
+/**
  * Pagination page
  */
 .pagination {
@@ -272,10 +290,15 @@ html {
     > li {
       margin-bottom: $spacing-unit * 1.5;
       padding-bottom: 30px;
-
+      transition: all .8s;
+      
       &:not(:last-child) {
         border-bottom: 1px solid #e3e3e3;
       }
+    }
+    
+    > li:hover {
+      box-shadow: 0px 12px 8px -12px #c0bebe;
     }
   }
 
