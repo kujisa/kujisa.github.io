@@ -1,9 +1,9 @@
 title: Miraihere
 email: repent.wa@gmail.com
-author: kujisa
+author: Kujisa
 description: >- # this means to ignore newlines until "baseurl:"
   Mirai? Here!
-github_username:  kujisa
+github_username:  Kujisa
 
 baseurl: "/"
 url: "https://miraihere.com"
@@ -20,7 +20,7 @@ favicon: "" # the favicon for your site
 #   "Copyright (c) 2017-{currentYear} <a href="https://example.com">{author}</a>"
 #   "Copyright © 2017-2021 Foobar"
 #
-copyright: "Copyright (c) {currentYear} <a href='https://miraihere.com/about.html'>{author}</a>"
+copyright: "Copyright (c) {currentYear} <a href='https://miraihere.com/about.html'>{author}</a> All Rights Reserved."
 
 # Yat date format
 # refer to http://strftime.net/ if you want to customize this
@@ -37,7 +37,7 @@ yat:
 # content_width: "920px"
 
 # Google analytics
-# google_analytics: [Tracking ID]
+google_analytics: G-4C4KX68XX8
 
 # If you want to generate website sitemap, you can set true
 # sitemap: false
@@ -71,8 +71,8 @@ translate_langs:
     img: https://cdn.countryflags.com/thumbs/russia/flag-400.png
     text: Russian
 
-remote_theme: "jeffreytse/jekyll-theme-yat"
-#theme: jekyll-theme-yat
+#remote_theme: "jeffreytse/jekyll-theme-yat"
+theme: jekyll-theme-yat
 # You can choose a theme color
 # Default theme colors as below:
 # coolblack: #090a0b

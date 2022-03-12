@@ -569,8 +569,8 @@ Opus Audio (".opus"):
 ![](https://hpr.dogphilosophy.net/test/opus.opus)
 
 Spotify Podcast:
-
-![](https://open.spotify.com/episode/31AxcwYdjsFtStds5JVWbT)
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1bkvGbgK4HU8B7Ue4k7O7I?utm_source=generator" 
+width="100%" height="80" frameBorder="0" allowfullscreen="" allow=" clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 
 ## Special media links
 
