@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Windows 11 修改右键菜单新建顺序
+title: How to Customize the Right-Click Menu in Windows 11
 author: Kujisa
 categories: Windows
 tags: Windows

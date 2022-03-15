@@ -1,6 +1,6 @@
 ---
 layout: post
-title: HTML实体编码转换为字符
+title: HTML entity to String
 author: Kujisa
 categories: JavaScript
 tags: JavaScript HTML

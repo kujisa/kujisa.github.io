@@ -1,6 +1,6 @@
 ---
 layout: post
-title: windows 10 激活方法
+title: windows 10 activation method
 author: Kujisa
 categories: Windows
 tags: Windows

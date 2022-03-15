@@ -1,6 +1,6 @@
 ---
 layout: post
-title: MySQL重置当前自动增量值
+title: MySQL reset the current auto-increment value
 author: Kujisa
 categories: Database
 tags: MySQL Database MSSQL

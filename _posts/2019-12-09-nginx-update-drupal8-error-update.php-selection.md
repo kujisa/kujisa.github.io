@@ -1,6 +1,6 @@
 ---
 layout: post
-title: nginx下drupal 8升级update.php selection 错误
+title: nginx update drupal 8 update.php selection error
 author: Kujisa
 categories: Other
 tags: Drupal Nginx

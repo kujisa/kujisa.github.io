@@ -1,6 +1,6 @@
 ---
 layout: post
-title: linux更新yum源
+title: Update Linux Yum Repositories
 author: Kujisa
 categories: Linux
 tags: Linux

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: centos7如何搭建酸酸
+title: How to build ss on Centos7
 author: Kujisa
 categories: Linux
 tags: Linux Proxy

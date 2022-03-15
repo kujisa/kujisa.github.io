@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 标题！
-subtitle: 子标题！
+title: title!
+subtitle: subtitle!
 author: Kujisa
 categories: Other
 banner:
