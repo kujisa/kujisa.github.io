@@ -6,6 +6,31 @@ categories: Other
 tags: Other
 ---
 
+## 想要购买？
+
+万宝楼： 暂无，有交易意向可立马上架。
+
+微信: <a id="wechat-qrcode-link" onclick="wechatQrCodeClick()">⬇️点击⬇️展开⬇️二维码⬇️</a>
+<img id="wechat-qrcode" src="/assets/images/social/wechat.jpg" alt="微信号：Repent_WA" title="微信号：Repent_WA" width="50%" style="display:none;"/>
+
+邮箱：[repent.wa@gmail.com](mailto:repent.wa@gmail.com)
+
+
+<script>
+    var convert =0;
+    function wechatQrCodeClick(){
+        if(convert==0){
+            document.getElementById("wechat-qrcode").style.display="block";
+            document.getElementById("wechat-qrcode-link").innerText="⬆️点击⬆️收起⬆️二维码⬆️";
+            convert=1;
+        }else{
+            document.getElementById("wechat-qrcode").style.display="none";
+            document.getElementById("wechat-qrcode-link").innerText="⬇️点击⬇️展开⬇️二维码⬇️";
+            convert=0;
+        }
+    }
+</script>
+
 ## 详情
 
 **【纵月秀太·万宝楼账号】**
@@ -196,3 +221,6 @@ tags: Other
 [20-武器收集]: /assets/images/posts/2022/03/15/20-武器收集.jpg "20-武器收集"
 [22-称号]: /assets/images/posts/2022/03/15/22-称号.jpg "22-称号"
 [23-江湖百态]: /assets/images/posts/2022/03/15/23-江湖百态.jpg "23-江湖百态"
+
+
+<p style="font-size:28px;font-weight:400;display:block;line-height:44.8px;margin-top:60px">想要购买？<a onclick="hashLocate('#h-想要购买')">点我上去🚀</a></p>
