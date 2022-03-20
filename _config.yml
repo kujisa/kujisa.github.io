@@ -43,7 +43,7 @@ google_analytics: G-4C4KX68XX8
 # sitemap: false
 
 # If you want to change site language, you can set lang option
-lang: "zh-CN"  # default lang is zh-CN
+lang: "en"  # default lang is zh-CN
 # Translate languages
 # langs refer to https://cloud.google.com/translate/docs/languages
 translate_langs:
