@@ -161,3 +161,13 @@ a[href^="https://miraihere.com"] {
   padding-right: 0;
 }
 ```
+
+## Translator Voice
+
+### Chinese
+
+Bing translator
+
+### English
+
+Baidu translator
