@@ -1,9 +1,77 @@
----
-layout: home
-title: 主页
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>一言</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@300;700&display=swap");
+      * {
+        font-family: Raleway, Roboto, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      #banner {
+        height: 63.84px;
+        width: 100%;
+        box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.06);
+        position: sticky;
+        z-index: 1000;
+        text-align: center;
+        line-height: 63.84px;
+      }
+      #container {
+        padding-top: 72px;
+        max-width: 920px;
+        margin: auto;
+        padding-right: 30px;
+        padding-left: 30px;
+      }
+      #container ul {
+        list-style: none;
+      }
+      #container ul li {
+        padding: 20px 0;
+        transition: all 0.8s;
+      }
+      #container ul li:last-child {
+        border-bottom: 1px solid #e3e3e3;
+      }
 
-heading: "北纬线"
-subheading: "腹有诗书气自华"
-
-banner: "/assets/images/banners/home.jpg"
----
+      @keyframes k1 {
+        0% {
+          padding-left: 0px;
+        }
+        50% {
+          padding-left: 4px;
+          box-shadow: 0px 8px 8px -8px #c0bebe;
+        }
+        100% {
+          padding-left: 0px;
+        }
+      }
+      #container ul li:hover {
+        animation: k1 ease-out 1.6s;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="banner"><h1>一言</h1></div>
+    <div id="container">
+      <ul>
+        <li>思绪来得快去得也快，偶尔会在这里停留</li>
+        <li>流星、昙花、极光， 有限的事物都弥足珍贵， 人生亦如此。</li>
+        <li>
+          她早已睡着，长长短短的鼾声与笔尖在试卷上的摩擦声相互应和，蚕食了浓厚、粘稠的夜。
+        </li>
+        <li>可我们仍然是孤独的，只能在各自的人生中沉默对望。</li>
+        <li>一旦将它放大，你会发现它别有一番洞天。</li>
+        <li>
+          这个世界没有什么强弱问题，只有一个在什么范围内、以什么效率、把什么资源集中起来，然后选择在什么点上、以多大的力度释放的问题。
+        </li>
+        <li>笨蛋永远不会明白聪明是一种幸福。</li>
+      </ul>
+    </div>
+  </body>
+</html>
