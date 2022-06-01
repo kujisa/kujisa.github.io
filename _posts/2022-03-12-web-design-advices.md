@@ -132,6 +132,11 @@ $base-font-family: Raleway,Roboto,sans-serif;
 box-shadow: 0px 12px 8px -12px #c0bebe;
 ```
 
+```css
+box-shadow: 0 10px 30px 0 rgb(0 0 0 / 10%);
+```
+
+
 ## Color
 
 {:color-style: style="background: black;" }
@@ -171,3 +176,82 @@ Bing translator
 ### English
 
 Baidu translator
+
+## Before
+
+### text
+
+used in example && note && \26A0 Warning!
+
+```html
+<div class="example">
+    12345678asd ads ads
+    <p>asdf</p>
+    <p>asdf</p>
+    <p>asdf</p>
+    <p>asdf</p>
+    <p>asdf</p>
+    <p>asdf</p>
+    <p>asdf</p>
+</div>
+```
+
+```css
+.example::before {
+    font-style: normal;
+    content: 'Example';
+    background: #222222;
+    color: #EEEEEE;
+    padding: 0.15em 0.25em;
+    font: 1em Helvetica Neue, sans-serif, Droid Sans Fallback;
+    position: absolute;
+    top: 0.2em;
+    left: -2.25em;
+    transform: rotate(-5deg);
+}
+.example {
+    display: block;
+    color: #222222;
+    background: #EEEEEE;
+    margin-left: 2em;
+    padding-left: 3em;
+    position: relative;
+}
+```
+
+## Steam Profile bg
+
+### bg
+
+```html
+<video playsinline="" autoplay="" muted="" loop="" poster="https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/items/601220/02972ad2127999a6c0d17652236be1bb8b4f9f70.jpg">
+  <source src="https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/items/601220/654fa1daf88611e1503e73cda1ef597cd5603b6c.webm" type="video/webm">
+  <source src="https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/items/601220/ab101a835aa5fd4d2643b057281362faa75abeaf.mp4" type="video/mp4">
+</video>
+```
+
+### mini bg
+```html
+<video class="miniprofile_nameplate" playsinline="" autoplay="" muted="" loop="">
+  <source src="https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/items/1203420/172da41bb27783681658431271cfc3339e7ed93b.webm" type="video/webm">
+  <source src="https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/items/1203420/569fd88e729d0d9c24b068ab1f23b8068704c99a.mp4" type="video/mp4">
+</video>
+```
+
+## WebSite bg demo
+
+```html
+<div id="bg">
+  <video style="width: 100%;" class="miniprofile_nameplate" playsinline="" autoplay="" muted="" loop="">
+    <source src="https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/items/1203420/172da41bb27783681658431271cfc3339e7ed93b.webm" type="video/webm">
+    <source src="https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/items/1203420/569fd88e729d0d9c24b068ab1f23b8068704c99a.mp4" type="video/mp4">
+  </video>
+</div>
+```
+
+```css
+#bg{
+    opacity:10%;
+    filter: blur(17px) saturate(150%);
+}
+```

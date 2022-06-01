@@ -1,9 +1,121 @@
----
-layout: home
-title: 主页
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>一言</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@300;700&display=swap");
+      * {
+        font-family: Raleway, Roboto, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      #banner {
+        height: 63.84px;
+        width: 100%;
+        box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.06);
+        position: sticky;
+        z-index: 1000;
+        text-align: center;
+        line-height: 63.84px;
+      }
+      #container {
+        padding-top: 72px;
+        max-width: 920px;
+        margin: auto;
+        padding-right: 30px;
+        padding-left: 30px;
+      }
+      #container ul {
+        list-style: none;
+      }
+      #container ul li {
+        padding: 20px 0;
+        transition: all 0.8s;
+        white-space: pre-line;
+        line-height: 1.5;
+      }
+      #container ul li:last-child {
+        border-bottom: 1px solid #e3e3e3;
+      }
 
-heading: "北纬线"
-subheading: "腹有诗书气自华"
+      @keyframes k1 {
+        0% {
+          padding-left: 0px;
+        }
+        20% {
+          border-left: seagreen 2px solid;
+          padding-left: 4px;
+          box-shadow: 0px 8px 8px -8px #c0bebe;
+        }
+        80% {
+          border-left: seagreen 2px solid;
+          padding-left: 4px;
+          box-shadow: 0px 8px 8px -8px #c0bebe;
+        }
+        100% {
+          border-left: none;
+          padding-left: 0px;
+        }
+      }
+      #container ul li:hover {
+        animation: k1 ease-out 2.6s;
+      }
+      ::-webkit-scrollbar {
+      	width: 3px;
+      	height: 3px;
+      }
 
-banner: "/assets/images/banners/home.jpg"
----
+      ::-webkit-scrollbar-thumb {
+      	background-color: lightseagreen;
+      	min-height: 100px
+      }
+
+      ::-webkit-scrollbar-thumb:hover {
+      	background-color: seagreen
+      }
+    </style>
+  </head>
+  <body>
+    <div id="banner"><h1>一言</h1></div>
+    <div id="container">
+      <ul>
+        <li>思绪来得快去得也快，偶尔会在这里停留</li>
+        <li>流星、昙花、极光， 有限的事物都弥足珍贵， 人生亦如此。</li>
+        <li>她早已睡着，长长短短的鼾声与笔尖在试卷上的摩擦声相互应和，蚕食了浓厚、粘稠的夜。</li>
+        <li>可我们仍然是孤独的，只能在各自的人生中沉默对望。</li>
+        <li>一旦将它放大，你会发现它别有一番洞天。</li>
+        <li>这个世界没有什么强弱问题，只有一个在什么范围内、以什么效率、把什么资源集中起来，然后选择在什么点上、以多大的力度释放的问题。</li>
+        <li>笨蛋永远不会明白聪明是一种幸福。</li>
+        <li>Please do not eat in the library.
+          The ants will get in and learn to read and get too smart and knowledge is power, but power corrupts so they'll turn evil and take over the world.</li>
+        <li>这件事让我明白了一个事实，你的位置决定了你所看到的。当你坐在前排，实际做事时，你看到的东西、你的视野是后排的人所没有的。如果后排的人说一些没有意义的话，你就忽略它，并继续前进。</li>
+        <li>突然，我来到了外面，寒冷、黑暗、闪着光亮的夜晚，星星惊奇地眨着眼睛。我能闻到松树的气息，听到风在树枝间呼啸。我的头晕乎乎的。
+          我的体内有什么东西在翻腾，渴望着涌向外面的黑暗。一下子，我又清晰地看到了与我久违的秘密，混乱不是别的，只是无数有序的事物组合在了一起。
+          风，星星，石头上的流水，整个快速运动着、看似摇摇欲坠的世界都能得到解答。
+          在黑暗中我踉跄前行，伸展双臂，拥抱着漆黑的世界。</li>
+        <li>人不用总是问人生有什么意义，而要问，你能给生命带来什么意义？</li>
+        <li>微世纪(microcentury)指的是一个世纪的百万分之一，相当于52分35.7秒。
+          差不多每过一个小时，你就度过了这个世纪的百万分之一。</li>
+        <li>阅读你喜欢的书，直到你喜欢阅读。(Read what you love until you love to read.)
+            做你喜欢的事，直到你喜欢去做。(Do what you love until you love to do.)</li>
+        <li>你的代码应该是写给下一个开发者的情书。</li>
+        <li>一个人的思想就像是一座冰山，自己能意识到的知识很小的一部分，其它大部分都埋在脑海深处，只有通过思考和写作，才能把它们发掘出来。</li>
+        <li>“我读过很多书，
+          但后来大部分都忘记了，
+          那读书的意义是什么？”
+          “当我还是孩子时，我吃过很多食物，
+          现在已经记不起吃过什么了。
+          但可以肯定的是，
+          它们中一部分已长成了我的骨头和肉。
+          读书对人的改变也是如此</li>
+        <li>最容易使用的程序，是那些对用户的新知识要求最少的程序。</li>
+        <li>作为软件工程师，我觉得自己得了“冒名顶替综合症”，就是你觉得你没有资格做你的工作，好像整天在假装，不被周围人看出来。</li>
+        <li>真正的别离没有桃花潭水，没有长亭古道，只不过在同样的洒满阳光的早上，有人留在了昨天。</li>
+        <li>从这个角度来看，人的幸福感取决于欲望和能力，欲望大于能力，则生活在痛苦之中，幸福感低，欲望等于能力，则有一定的幸福感，若是能力大于欲望，则人的幸福感很足。</li>
+      </ul>
+    </div>
+  </body>
+</html>
